@@ -8,9 +8,8 @@ boolean isPunctured=false;
 String bikeName="KTM";
 double runningKM= 30021.1;
 public static void main(String[] args) {
-	System.out.println("Good morning");
-	TwoWheeler myBike=new TwoWheeler();
 	
+	TwoWheeler myBike=new TwoWheeler();
 	System.out.println("No of wheeles " +myBike.noOfWheels);
 	System.out.println("No of mirrors " +myBike.noOfMirrors);
 	System.out.println("Chass Number "+myBike.chassisNumber);
